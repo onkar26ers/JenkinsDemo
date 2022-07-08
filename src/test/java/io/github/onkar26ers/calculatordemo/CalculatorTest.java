@@ -20,5 +20,12 @@ public class CalculatorTest
 	Calculator c1 = new Calculator();
        	assertEquals(30, c1.sub(40,10));
     }
+
+    @Test
+    public void testMul()
+    {
+	Calculator c1 = new Calculator();
+       	assertEquals(400, c1.mul(40,10));
+    }
 	
 }
